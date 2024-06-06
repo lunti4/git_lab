@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\callories\callories.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="dll2">
+      <HintPath>..\..\dll2\dll2\bin\Debug\net8.0\dll2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
